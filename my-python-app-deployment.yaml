@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-python-app
-        image: ashranhaider/clo835-python-app:latest
+        image: prathamssapra/pythonappv1:latest
         env:
         - name: DBHOST
           valueFrom:
